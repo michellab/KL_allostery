@@ -1,0 +1,27 @@
+# 08/28/18 11:54:08
+# -p topology.parm7
+# Loaded topologies:
+#   topology.parm7
+trajin longtraj_aligned_PCA.dcd
+reference first_frame.pdb
+rmsd (@CA) reference
+trajout longtraj_aligned_PCA_CORR.dcd
+go
+# 08/29/18 12:18:55
+# -p topology.parm7
+# Loaded topologies:
+#   topology.parm7
+trajin longtraj_aligned_PCA.dcd 1 40000 10
+reference first_frame.pdb
+rmsd (@CA) reference
+trajout short_traj_aligned.dcd
+go
+# 10/09/18 10:01:10
+# -p topology.parm7
+# Loaded topologies:
+#   topology.parm7
+trajin short_traj_aligned.dcd
+strip :NME
+strip :ACE
+trajout short_nocap.dcd
+go

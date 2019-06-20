@@ -1,0 +1,12 @@
+parm initial_topology.parm7
+trajin initial_traj0001.dcd
+autoimage
+
+strip :*LIGAND_RESIDUE_NAME*
+strip :1F8
+strip :Cl-
+strip :287-296
+strip :Na+
+
+trajout traj0002.dcd
+go

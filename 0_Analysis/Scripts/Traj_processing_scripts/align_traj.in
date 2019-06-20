@@ -1,0 +1,5 @@
+parm first_frame.pdb
+trajin fulltraj.dcd
+reference first_frame.pdb
+rmsd (@CA) reference
+trajout fulltraj_aligned.dcd 

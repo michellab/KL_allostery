@@ -1,0 +1,7 @@
+# Log started on 10/09/2018 [mm/dd/yyyy] at 09:59:21
+# Command line arguments: topology.parm7
+# Loaded topologies: topology.parm7
+strip :NME
+strip :ACE
+outparm topolo.parm7
+go

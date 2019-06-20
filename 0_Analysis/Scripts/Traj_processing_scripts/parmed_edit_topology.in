@@ -1,0 +1,10 @@
+parm topology.parm7
+
+strip :*LIGAND_RESIDUE_NAME*
+strip :1F8
+strip :Cl-
+strip :287-296
+strip :Na+
+
+outparm topology_testing.parm7
+go

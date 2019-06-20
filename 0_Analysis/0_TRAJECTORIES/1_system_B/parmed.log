@@ -1,0 +1,24 @@
+# Log started on 08/16/2018 [mm/dd/yyyy] at 15:48:08
+# Log started on 08/16/2018 [mm/dd/yyyy] at 15:48:15
+# Command line arguments: topology.parm7
+# Loaded topologies: topology.parm7
+strip :2A2
+strip :1F8
+strip :Cl-
+parmout topology_nolig.parm7
+outparm topology_nolig.parm7
+go
+# Log started on 08/17/2018 [mm/dd/yyyy] at 14:45:22
+# Log started on 08/17/2018 [mm/dd/yyyy] at 14:45:32
+# Command line arguments: topology.parm7
+# Loaded topologies: topology.parm7
+strip :287-296
+outparm testing_parm.parm7
+go
+# Log started on 10/05/2018 [mm/dd/yyyy] at 12:09:35
+# Command line arguments: -p topology.parm7
+# Loaded topologies: topology.parm7
+strip :NME
+strip :ACE
+outparm topology_noCAP.parm7
+go

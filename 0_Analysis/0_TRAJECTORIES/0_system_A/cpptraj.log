@@ -1,0 +1,105 @@
+# 08/16/18 15:45:04
+# -p topology.parm7
+# Loaded topologies:
+#   topology.parm7
+trajin traj0001.dcd
+strip :2A2
+strip :1F8
+strip :Cl-
+trajout traj0001_nolig.dcd
+go
+quit
+# 08/16/18 15:46:22
+# -p topology.parm7
+# Loaded topologies:
+#   topology.parm7
+trajin traj0002.dcd
+strip :2A2
+strip :1F8
+strip :Cl-
+trajout traj0002_nolig.dcd
+go
+quit
+# 08/17/18 14:50:05
+# -p topology.parm7
+# Loaded topologies:
+#   topology.parm7
+trajin traj0001.dcd
+strip :287-296
+trajout traj0001_edit.dcd
+go
+# 08/17/18 14:50:44
+# -p topology.parm7
+# Loaded topologies:
+#   topology.parm7
+trajin traj0002.dcd
+strip :287-296
+trajout traj0002_edit.dcd
+go
+# 08/28/18 11:51:12
+# -p topology.parm7
+# Loaded topologies:
+#   topology.parm7
+trajin longtraj_aligned_PCA.dcd
+reference first_frame.pdb
+rmsd (@CA) reference
+trajout longtraj_aligned_PCA_CORR.dcd
+go
+# 08/29/18 12:14:37
+# -p topology.parm7
+# Loaded topologies:
+#   topology.parm7
+trajin fulltraj.dcd
+reference first_frame.pdb
+rmsd (@CA) reference
+trajout short_traj_aligned.dcd
+go
+# 10/05/18 12:06:42
+# -p topology.parm7
+# Loaded topologies:
+#   topology.parm7
+trajin traj0001.dcd
+strip :NME
+strip :ACE
+trajout traj0001_noCAP.dcd
+go
+quit
+# 10/05/18 12:07:24
+# -p topology.parm7
+# Loaded topologies:
+#   topology.parm7
+trajin traj0002.dcd
+strip :NME
+strip :ACE
+trajout traj0001_noCAP.dcd
+go
+quit
+# 10/05/18 12:11:17
+# -p topology.parm7
+# Loaded topologies:
+#   topology.parm7
+trajin traj0001.dcd
+strip :NME
+strip :ACE
+trajout traj0001_noCAP.dcd
+go
+quit
+# 10/05/18 12:11:53
+# -p topology.parm7
+# Loaded topologies:
+#   topology.parm7
+trajin traj0002.dcd
+strip :NME
+strip :ACE
+trajout traj0002_noCAP.dcd
+go
+ls
+# 10/09/18 10:05:16
+# -p cap_traj/topology.parm7
+# Loaded topologies:
+#   cap_traj/topology.parm7
+trajin short_traj_aligned.dcd
+strip :NME
+strip :ACE
+trajout short_nocap.dcd
+go
